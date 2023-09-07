@@ -1,5 +1,3 @@
-    // JavaScript to populate dynamic data
-    
     // Slack Name
     const slackNameElement = document.querySelector('[data-testid="slackUserName"]');
     slackNameElement.textContent = "Victor John";
@@ -28,6 +26,6 @@
     // Display the formatted UTC time
     currentUTCTimeElement.textContent = utcTimeString;
 
-    // Track (You can customize this based on your track)
+    // Track 
     const trackElement = document.querySelector('[data-testid="myTrack"]');
     trackElement.textContent = "Frontend";
